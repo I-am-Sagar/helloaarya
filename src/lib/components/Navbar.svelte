@@ -27,8 +27,8 @@
                     Home
                 </a>
                 <a 
-                    href="/invite" 
-                    class="text-gray-600 hover:text-rose-700 transition-colors { $page.url.pathname === '/invite' ? 'text-rose-700 border-b-2 border-rose-400' : '' }"
+                    href="/sorry" 
+                    class="text-gray-600 hover:text-rose-700 transition-colors { $page.url.pathname === '/sorry' ? 'text-rose-700 border-b-2 border-rose-400' : '' }"
                 >
                     A Small Apology
                 </a>
@@ -58,7 +58,7 @@
                     Home
                 </a>
                 <a 
-                    href="/invite" 
+                    href="/sorry" 
                     on:click={closeMenu}
                     class="block py-2 text-gray-600 hover:text-rose-700 hover:bg-rose-50 rounded-lg px-4 transition-colors"
                 >

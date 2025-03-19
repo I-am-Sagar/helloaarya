@@ -1,10 +1,14 @@
 <script>
-    import Hero from "$lib/components/Hero.svelte";
+  import Hero from "$lib/components/Hero.svelte";
+  import Joke from "$lib/components/Joke.svelte";
+  import ThankYou from "$lib/components/ThankYou.svelte";
 </script>
 
 
 <main>
     <Hero />
+    <ThankYou />
+    <Joke />
 </main>
 
 <style>
