@@ -1,2 +1,15 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+    import Hero from "$lib/components/Hero.svelte";
+</script>
+
+
+<main>
+    <Hero />
+</main>
+
+<style>
+    main {
+      width: 100%;
+      /* Add any global styles for the page container here */
+    }
+  </style>

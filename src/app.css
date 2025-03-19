@@ -1,1 +1,24 @@
-@import 'tailwindcss';
+/* Import a romantic cursive font */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+
+@import "tailwindcss";
+
+/* Utility class for cursive font */
+.font-cursive {
+    font-family: 'Dancing Script', cursive;
+}
+
+/* Utility classes for romantic fonts */
+.font-romantic {
+    font-family: 'Playfair Display', serif;
+}
+
+.font-light {
+    font-family: 'Quicksand', sans-serif;
+}
